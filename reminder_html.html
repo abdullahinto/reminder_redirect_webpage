@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Moment of Reflection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-pattern"></div>
+    
+    <div class="container">
+        <div class="header-icon">
+            <div class="crescent-moon"></div>
+        </div>
+        
+        <h1 class="main-title">تذكر الله</h1>
+        <h2 class="subtitle">Remember Allah</h2>
+        
+        <div class="content-card">
+            <p class="main-message">
+                Every moment of restraint is a victory of the soul over desire. 
+                The strength you show today echoes in eternity, and Allah sees every struggle, 
+                every choice to turn away from what harms the heart.
+            </p>
+            
+            <div class="divider"></div>
+            
+            <blockquote class="quran-verse">
+                <p class="arabic-text">وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَىٰ فَإِنَّ الْجَنَّةَ هِيَ الْمَأْوَىٰ</p>
+                <p class="verse-translation">
+                    "And as for he who feared the standing before his Lord and prevented the soul from [unlawful] inclination, then indeed, Paradise will be [his] abode."
+                </p>
+                <cite class="verse-reference">— Surah An-Nazi'at (79:40-41)</cite>
+            </blockquote>
+            
+            <div class="reflection-box">
+                <h3>In this moment, remember:</h3>
+                <ul class="reminders">
+                    <li>Your Lord is always watching with mercy and love</li>
+                    <li>This urge will pass, but your choice echoes forever</li>
+                    <li>Every "no" to temptation is a "yes" to your highest self</li>
+                    <li>Paradise is built one righteous choice at a time</li>
+                </ul>
+            </div>
+            
+            <div class="action-buttons">
+                <button class="btn-primary" onclick="redirectToGoodContent()">
+                    Read Quran Instead
+                </button>
+                <button class="btn-secondary" onclick="showDua()">
+                    Make Dua
+                </button>
+            </div>
+        </div>
+        
+        <div class="footer-message">
+            <p>May Allah strengthen you in every moment of choice</p>
+        </div>
+    </div>
+
+    <!-- Dua Modal -->
+    <div id="duaModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeDua()">&times;</span>
+            <h3>A Dua for Strength</h3>
+            <div class="dua-text">
+                <p class="arabic-text">اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ</p>
+                <p class="translation">
+                    "O Allah, help me to remember You, thank You, and worship You in the best manner."
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
